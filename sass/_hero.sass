@@ -1,0 +1,64 @@
+.hero
+    position: relative
+    background: url("../img/hero-bg.jpg") no-repeat
+    height: 100vh
+    &-inner
+        margin: 0 150px
+        margin-top: 10%
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-slider
+        max-width: 650px
+        text-align: center
+        color: #fff
+        &_dots
+            display: flex
+            justify-content: space-between
+            &__item
+                margin: 0 5px
+                background: $button-color
+                width: 10px
+                height: 10px
+                border-radius: 100%
+        &__arrowl
+            cursor: pointer
+            transition: .2s
+            &:hover
+                transform: scale(1.1)
+        &__arrowr
+            cursor: pointer
+            transition: .2s
+            &:hover
+                transform: scale(1.1)
+    &__title
+        font-family: Montserrat, sans-serif;
+        font-weight: normal
+        font-size: 36px
+    &__subtitle
+        font-family: Montserrat, sans-serif;
+        font-size: 52px
+        font-weight: 800
+    &__discription
+        font-family: Raleway, sans-serif;
+        margin: auto
+        max-width: 540px
+        font-size: 16px
+        font-weight: 300
+    &__button
+        margin-top: 50px
+        font-size: 14px
+        width: 170px
+        border: none
+        color: #ffffff
+        border-radius: 4px
+        height: 50px
+        box-shadow: 0 3px $button-color/1.4
+        text-transform: uppercase
+        font-family: Raleway, sans-serif
+        font-weight: bold
+        background: $button-color
+        transition: .15s
+        &:hover
+            background: $button-color/1.2
+

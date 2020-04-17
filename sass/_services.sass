@@ -1,0 +1,40 @@
+.services
+    padding-top: 80px
+    &-inner
+        justify-content: space-between
+        &_block
+            width: 25%
+            text-align: center
+            &:hover .services-svg
+                fill: #c7b299
+            &:hover .services__title
+                color: #c7b299
+            &:hover .services__text::after
+                background: #c7b299 
+            &:hover .services__text
+                    transform: scale(1.1)
+    &__title
+        transition: .4s
+        font-size: 22px
+        font-family: Montserrat, sans-serif
+    &__text
+        transition: .2s
+        font-size: 14px
+        font-family: Monsterrat, sans-serif
+        &::after
+            transition: .4s
+            content: ''
+            display: block
+            height: 3px
+            width: 30%
+            background: #f1eee9
+            margin: auto
+            margin-top: 30px
+    &-image
+        height: 50px
+        margin-bottom: 30px
+        display: flex
+        align-items: center
+    &-svg
+        transition: .4s
+        transform: scale(0.35)

@@ -1,0 +1,104 @@
+.container
+    max-width: 1170px
+    margin: auto
+img
+    max-width: 100%
+body
+    font-family: Montserrat, sans
+@media ( max-width:  1000px)
+    .hero
+        &-inner
+            margin: auto
+            margin-top: 10%
+        &-slider
+            margin: auto
+            &__arrowr
+                display: none
+            &__arrowl
+                display: none
+        &__subtitle
+            transform: scale(0.8)
+@media ( max-width:  750px)
+    .header
+        &__cart
+            &-svg
+                display: none
+    .hero
+        &__discription
+            font-size: 16px
+        &-inner
+        &-slider
+            margin-top: 20%
+            &__arrowr
+            &__arrowl
+        &__subtitle
+            font-size: 40px
+    .services
+        &-inner
+            padding: 0 30px
+            &_block
+                width: 40%
+    .presentation
+        &__video
+            width: 100%
+        &-inner
+            border: none
+            border-bottom: 10px solid #fff
+    .mobile
+        &-phone
+            display: none
+        &-block
+            width: 80%
+            padding-top: 40px
+            &_list
+                margin-top: 20px
+    .info
+        &-inner
+            padding: 50px 0 40px 0
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+        &_item
+            margin-top: 20px
+            width: 30%
+            &::after
+            &__image
+            &__number
+                font-size: 20px
+            &__text
+    .browser-purchase-inner
+        flex-wrap: wrap
+    .browser-purchase__button
+        margin-top: 10px
+    .latest
+        &-block
+            padding: 0 30px
+            &_item
+                width: 45%
+    .presentation__title
+        margin-top: 20px
+        font-size: 20px
+    .presentation__discription
+        font-size: 16px
+    .presentation__button
+        width: 75px
+        height: 75px
+@media ( max-width:  360px)
+    .presentation__title
+        font-size: 16px
+    .presentation__discription
+        margin-top: 10px
+        line-height: normal
+        font-size: 12px
+    .presentation__button
+        width: 60px
+        height: 60px
+        margin-top: 5px
+    .presentation__time
+        margin-top: 10px
+    .mobile-block_list
+        padding-left: 0
+    .services-inner_block
+        width: 100%
+    .latest-block_item
+        width: 100%
